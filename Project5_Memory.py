@@ -33,16 +33,14 @@ def mouseclick(pos):
     
     if exposed[cardClick] == False:
         exposed[cardClick] = True
+        memory.append(cardClick)
         if state == 0:
-            state = 1
-            memory.append(cardClick)
+            state = 1   
         elif state == 1:
             state = 2
             numTurns += 1
-            memory.append(cardClick)
         else:
             state = 1
-            memory.append(cardClick)
             if deck[memory[-2]] <> deck[memory[-3]]:
                 exposed[memory[-2]] = False
                 exposed[memory[-3]] = False      
@@ -82,5 +80,3 @@ frame.set_draw_handler(draw)
 new_game()
 frame.start()
 
-
-# Always remember to review the grading rubric
