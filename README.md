@@ -43,13 +43,13 @@ Black Jack
 http://www.codeskulptor.org/#user38_muaf6wM5kKxoZ4R_1.py
 
 **Project 7**
-Spaceship (Prelim)
+Spaceship (Prelim)  
 *(use arrow keys to control spaceship; use space bar to shoot)*
 
 http://www.codeskulptor.org/#user38_R96bgXM7zREhPK2.py
 
 **Project 8**
-Spaceship (Final)
+Spaceship (Final)  
 *(use arrow keys to control spaceship; use space bar to shoot)*
 
 http://www.codeskulptor.org/#user38_2He3omircgDrfuD.py
